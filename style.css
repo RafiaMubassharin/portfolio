@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(gray, white);
+}
+section{
+    display: flex;
+    padding: 20px;
+}
+
+div{
+    width: 50%;
+    padding: 20px;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+small{
+    color: rgb(104, 46, 36);
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(black, gray);
+    color: cornsilk;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+#skills{
+    padding: 50px ;
+    width: 80%;
+
+}
+li{
+    background-image: linear-gradient(black, rgb(208, 208, 235));
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px black;
+    margin: 30px;
+}
+#one{
+    border-left: solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+#two{
+    border-left: solid;
+    border-image: linear-gradient(blue, rgb(162, 162, 219));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
